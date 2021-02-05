@@ -24,25 +24,52 @@
                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Compressor"@en .
 
 
+###  https://w3id.org/GasInformationModel/ontology/network/primarycomponents#0b0fc835_bd9e_4de1_98bf_93aee4e2fb97
+<https://w3id.org/GasInformationModel/ontology/network/primarycomponents#0b0fc835_bd9e_4de1_98bf_93aee4e2fb97> rdf:type owl:Class ;
+                                                                                                               rdfs:subClassOf <https://w3id.org/EnergyInformationModel/ontology/network/primarycomponents#7c5f4ddf_4467_4c72_b26b_4c96485bd533> ;
+                                                                                                               <http://www.w3.org/2004/02/skos/core#definition> "A PipeSegment is a continuous stretch of pipes without any branching and a constant diameter. May physically consist of multiple pipes and joints, these are modelled through Asset."@en ;
+                                                                                                               <http://www.w3.org/2004/02/skos/core#prefLabel> "LeidingFunctie"@nl ,
+                                                                                                                                                               "PipeSegment"@en .
+
+
 ###  https://w3id.org/GasInformationModel/ontology/network/primarycomponents#09a9922c_4410_4c44_ab8e_2bbe66de74a1
 <https://w3id.org/GasInformationModel/ontology/network/primarycomponents#09a9922c_4410_4c44_ab8e_2bbe66de74a1> rdf:type owl:Class ;
                                                                                                                rdfs:subClassOf <https://w3id.org/EnergyInformationModel/ontology/network/primarycomponents#84c50d0d_8ee4_41b2_b793_667e7e62c53f> ;
                                                                                                                <http://www.w3.org/2004/02/skos/core#definition> "Location in the network where gas be vented from the network for purposes of safety and maintenence"@en ;
-                                                                                                               <http://www.w3.org/2004/02/skos/core#prefLabel> "Vent"@en .
+                                                                                                               <http://www.w3.org/2004/02/skos/core#prefLabel> "AfblaasFunctie"@nl ,
+                                                                                                                                                               "Vent"@en .
+
+
+###  https://w3id.org/GasInformationModel/ontology/network/primarycomponents#3cdf1644_51a1_4662_a0a1_0b075a9cc9d6
+<https://w3id.org/GasInformationModel/ontology/network/primarycomponents#3cdf1644_51a1_4662_a0a1_0b075a9cc9d6> rdf:type owl:Class ;
+                                                                                                               rdfs:subClassOf <https://w3id.org/EnergyInformationModel/ontology/network/primarycomponents#f4574df8_5829_485f_8481_0f5a15a85eac> ;
+                                                                                                               <http://www.w3.org/2004/02/skos/core#definition> "A TeeConnector is a connector in the shape of a cross, allowing pipes to be connected from 3 directions."@en ;
+                                                                                                               <http://www.w3.org/2004/02/skos/core#prefLabel> "TStukFunctie"@nl ,
+                                                                                                                                                               "TeeConnector"@en .
 
 
 ###  https://w3id.org/GasInformationModel/ontology/network/primarycomponents#315051b9_2fdb_4411_906c_3d8f4fecb2a7
 <https://w3id.org/GasInformationModel/ontology/network/primarycomponents#315051b9_2fdb_4411_906c_3d8f4fecb2a7> rdf:type owl:Class ;
                                                                                                                rdfs:subClassOf <https://w3id.org/EnergyInformationModel/ontology/network/primarycomponents#75a82637_c3d3_44b6_af30_37f3a56a4dfb> ;
                                                                                                                <http://www.w3.org/2004/02/skos/core#definition> "Functional devices that can cut off a flow of gas through a system"@en ;
-                                                                                                               <http://www.w3.org/2004/02/skos/core#prefLabel> "Valve"@en .
+                                                                                                               <http://www.w3.org/2004/02/skos/core#prefLabel> "AfsluiterFunctie"@nl ,
+                                                                                                                                                               "Valve"@en .
 
 
 ###  https://w3id.org/GasInformationModel/ontology/network/primarycomponents#622c989a_eb47_456b_856a_a31b3350d005
 <https://w3id.org/GasInformationModel/ontology/network/primarycomponents#622c989a_eb47_456b_856a_a31b3350d005> rdf:type owl:Class ;
                                                                                                                rdfs:subClassOf <https://w3id.org/EnergyInformationModel/ontology/network/primarycomponents#6b198bd1_3cd5_449b_9447_23f7fa839b52> ;
                                                                                                                <http://www.w3.org/2004/02/skos/core#definition> "Functional device that can increase the pressure of a gas flow."@en ;
-                                                                                                               <http://www.w3.org/2004/02/skos/core#prefLabel> "Regulator"@en .
+                                                                                                               <http://www.w3.org/2004/02/skos/core#prefLabel> "RegelaarFunctie"@nl ,
+                                                                                                                                                               "Regulator"@en .
+
+
+###  https://w3id.org/GasInformationModel/ontology/network/primarycomponents#7f5ad024_2ae0_4d5e_9eb2_672edaee50aa
+<https://w3id.org/GasInformationModel/ontology/network/primarycomponents#7f5ad024_2ae0_4d5e_9eb2_672edaee50aa> rdf:type owl:Class ;
+                                                                                                               rdfs:subClassOf <https://w3id.org/EnergyInformationModel/ontology/network/primarycomponents#f4574df8_5829_485f_8481_0f5a15a85eac> ;
+                                                                                                               <http://www.w3.org/2004/02/skos/core#definition> "A CrossConnector is a connector in the shape of a cross, allowing pipes to be connected from 4 directions."@en ;
+                                                                                                               <http://www.w3.org/2004/02/skos/core#prefLabel> "CrossConnector"@en ,
+                                                                                                                                                               "KruisstukFunctie"@nl .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
